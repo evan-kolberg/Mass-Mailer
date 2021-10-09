@@ -1,5 +1,4 @@
 import yagmail, csv
-
 yag = yagmail.SMTP(user='massmailer69@gmail.com', password='************')
 with open('csv.csv') as file:
     reader = csv.reader(file)
